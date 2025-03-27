@@ -12,7 +12,7 @@ Il lavoro si inserisce nel contesto del corso di **Calcolo Numerico**, a.a. 2024
 
 ## 📜 Descrizione delle Funzioni
 
-- **[Src/DLP](DLP.m)**  
+- **[DLP](Src/DLP.m)**  
   Implementa il primo algoritmo per il calcolo dei nodi di Leja approssimati.  
   - **Input:**  
     - `x`: vettore di punti nell'intervallo `[a, b]`  
@@ -24,12 +24,12 @@ Il lavoro si inserisce nel contesto del corso di **Calcolo Numerico**, a.a. 2024
     \prod |x - ξ_i|
     \]
 
-- **[Src/DLP2](DLP2.m)**  
+- **[DLP2](Src/DLP2.m)**  
   Variante del primo algoritmo che utilizza la **fattorizzazione LU** con pivoting sulla matrice di Vandermonde basata su polinomi di Chebyshev.  
   - Input e output simili a `DLP.m`, ma con una differente strategia di selezione dei nodi.  
   - Più efficiente per gradi elevati.  
 
-- **[Src/leb_con](leb_con.m)**  
+- **[leb_con](Src/leb_con.m)**  
   Calcola la **costante di Lebesgue** valutando la funzione di Lebesgue sui nodi interpolanti.  
   - **Input:**  
     - `z`: nodi dell'interpolante  
